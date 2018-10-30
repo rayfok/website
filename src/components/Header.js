@@ -28,7 +28,7 @@ const Header = (props) => (
             <li><a href="https://www.linkedin.com/in/raymond-fok/" className="icon fa-linkedin" target="_blank" rel="noopener noreferrer"><span className="label">LinkedIn</span></a></li>
             <li><a href="https://scholar.google.com/citations?user=j238omAAAAAJ" className="icon fa-google" target="_blank" rel="noopener noreferrer"><span className="label">Google Scholar</span></a></li>
         </ul>
-        <span id="email">rayfok@umich.edu</span>
+        {/* <span id="email">rayfok@umich.edu</span> */}
     </header>
 )
 
