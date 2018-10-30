@@ -21,5 +21,5 @@ module.exports = {
     'gatsby-plugin-sass',
     'gatsby-plugin-offline'
   ],
-  pathPrefix: "/rayfok_website",
+  pathPrefix: "/website",
 }
