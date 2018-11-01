@@ -171,12 +171,12 @@
         v = a.n(y),
         w = a(166),
         A = a.n(w),
-        S = a(167),
-        C = a.n(S),
-        T = a(168),
-        I = a.n(T),
-        N = a(169),
-        R = a.n(N),
+        N = a(167),
+        S = a.n(N),
+        C = a(168),
+        T = a.n(C),
+        I = a(169),
+        R = a.n(I),
         F = (function(e) {
           function t() {
             return e.apply(this, arguments) || this
@@ -234,7 +234,7 @@
                   c.a.createElement('h3', null, 'Publications'),
                   c.a.createElement(
                     'div',
-                    { class: 'publication' },
+                    { className: 'publication' },
                     c.a.createElement('b', null, 'R. Fok'),
                     ', H. Kaur, S. Palani, M.E. Mott, W.S. Lasecki. ',
                     c.a.createElement(
@@ -256,14 +256,14 @@
                   ),
                   c.a.createElement(
                     'div',
-                    { class: 'publication' },
+                    { className: 'publication' },
                     'J.Y. Song, ',
                     c.a.createElement('b', null, 'R. Fok'),
                     ', J. Kim, W.S. Lasecki. ',
                     c.a.createElement(
                       'a',
                       {
-                        href: I.a,
+                        href: T.a,
                         target: '_blank',
                         rel: 'noopener noreferrer',
                       },
@@ -279,14 +279,14 @@
                   ),
                   c.a.createElement(
                     'div',
-                    { class: 'publication' },
+                    { className: 'publication' },
                     'J.Y. Song, ',
                     c.a.createElement('b', null, 'R. Fok'),
                     ', A. Lundgard, F. Yang, J. Kim, W.S. Lasecki. ',
                     c.a.createElement(
                       'a',
                       {
-                        href: C.a,
+                        href: S.a,
                         target: '_blank',
                         rel: 'noopener noreferrer',
                       },
@@ -301,13 +301,13 @@
                     '. Tokyo, Japan. ',
                     c.a.createElement(
                       'span',
-                      { class: 'paperAward' },
+                      { className: 'paperAward' },
                       'Best Student Paper Honorable Mention'
                     )
                   ),
                   c.a.createElement(
                     'div',
-                    { class: 'publication' },
+                    { className: 'publication' },
                     'S. Swaminathan, ',
                     c.a.createElement('b', null, 'R. Fok'),
                     ', F. Chen, T.K. Huang, I. Lin, R. Jadvani, W.S. Lasecki, J.P. Bigham. ',
@@ -330,7 +330,7 @@
                   ),
                   c.a.createElement(
                     'div',
-                    { class: 'publication' },
+                    { className: 'publication' },
                     'J.Y. Song, ',
                     c.a.createElement('b', null, 'R. Fok'),
                     ', F. Yang, K. Wang, A.R. Lundgard, W.S. Lasecki. ',
@@ -353,7 +353,7 @@
                   ),
                   c.a.createElement(
                     'div',
-                    { class: 'publication' },
+                    { className: 'publication' },
                     'S.R. Gouravajhala, J.Y. Song, J. Yim, ',
                     c.a.createElement('b', null, 'R. Fok'),
                     ', Y. Huang, F. Yang, K. Wang, Y. An, W.S. Lasecki. ',
@@ -785,4 +785,4 @@
     },
   },
 ])
-//# sourceMappingURL=component---src-pages-index-js-fc951ce1616f15349aa5.js.map
+//# sourceMappingURL=component---src-pages-index-js-a73688444e45f92b3ad2.js.map
