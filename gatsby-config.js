@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Raymond Fok",
-    author: "Raymond Fok",
-    description: "A Glimpse Into The Life of Researcher"
+    title: 'Raymond Fok',
+    author: 'Raymond Fok',
+    description: 'A Glimpse Into The Life of Researcher',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -19,7 +19,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline'
   ],
-  pathPrefix: "/website",
+  pathPrefix: '/website',
 }
