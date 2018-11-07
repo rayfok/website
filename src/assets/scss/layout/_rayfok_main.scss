@@ -1,0 +1,10 @@
+.blog-post {
+	@include padding(2.5rem, 6rem, (2rem, 0, 1rem, 0));
+	background-color: transparentize(_palette(bg), 0.15);
+	border-radius: _size(border-radius);
+	position: relative;
+	min-height: 100vh;
+	width: 90vw;
+	z-index: 3;
+	position: relative;
+}

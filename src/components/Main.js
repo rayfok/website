@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import PropTypes from 'prop-types'
 
 import ASSETS2018_SpeechAccess from '../pdfs/ASSETS2018_SpeechAccess.pdf'
@@ -185,92 +186,7 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Blog</h2>
-          <p>Coming soon!</p>
-          {close}
-        </article>
-
-        <article
-          id="contact"
-          className={`${this.props.article === 'contact' ? 'active' : ''} ${
-            this.props.articleTimeout ? 'timeout' : ''
-          }`}
-          style={{ display: 'none' }}
-        >
-          <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4" />
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
-          <ul className="icons">
-            <li>
-              <a
-                href="https://twitter.com/"
-                className="icon fa-twitter"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="label">Twitter</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/raymond.fok.75"
-                className="icon fa-facebook"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="label">Facebook</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/rayfok"
-                className="icon fa-github"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="label">GitHub</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/raymond-fok/"
-                className="icon fa-linkedin"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="label">LinkedIn</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://scholar.google.com/citations?user=j238omAAAAAJ"
-                className="icon fa-google"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <span className="label">Google Scholar</span>
-              </a>
-            </li>
-          </ul>
+          <Link to='/blog0/'>Reflecting on My First Academic Conference</Link>
           {close}
         </article>
       </div>
@@ -285,6 +201,7 @@ Main.propTypes = {
   onCloseArticle: PropTypes.func,
   timeout: PropTypes.bool,
   setWrapperRef: PropTypes.func.isRequired,
+  onOpenArticle: PropTypes.func,
 }
 
 export default Main

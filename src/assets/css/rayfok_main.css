@@ -1,12 +1,8 @@
 .publication {
     padding: 10px;
-    /*font-size: 15px;*/
+    font-size: 12px;
 }
 
-#email:before {
-    content: none;
-}
-
-#email {
-    margin-top: 0px;
+#blog {
+	min-height: 40vh;
 }
