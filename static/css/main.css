@@ -1,113 +1,126 @@
 * {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-.sidebar-link, .sidebar-link:hover, .sidebar-link:visited {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    text-decoration: none;
-    color: grey;
-    font-size: calc(15px + 0.75vw);
+.sidebar-link,
+.sidebar-link:hover,
+.sidebar-link:visited {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: grey;
+  font-size: calc(15px + 0.75vw);
 }
 
 .justify-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .section-header {
-    font-size: calc(15px + 1.75vw);
+  font-size: calc(15px + 1.75vw);
 }
 
 .headshot {
-    width: 18vw;
-    padding: 25px;
-    border-radius: 50%;
+  width: 18vw;
+  padding: 25px;
+  border-radius: 50%;
 }
 
 #about {
-    margin: 3vh 0 0 3vw;
+  margin: 3vh 0 0 3vw;
+}
+
+#news,
+#pubs {
+  margin: 1vh 0 0 3vw;
 }
 
 #about-text {
-    margin: 1vh 1vw 2vh 3vw;
+  margin: 0 1vw 0 3vw;
 }
 
 #about-text p {
-    width: 80%;
-}
-
-#news {
-   margin-left: 3vw;
+  width: 80%;
+  margin-bottom: 0 !important;
 }
 
 .news-item {
-    margin-left: calc(3vw - 15px);
+  margin-left: calc(3vw - 15px);
+}
+
+.news-item > div > p {
+  margin-bottom: 0;
 }
 
 .news-date {
-    font-weight: bold;
+  font-weight: bold;
+}
+
+#news-cont,
+#about-cont {
+  margin-bottom: 10px;
 }
 
 .musing {
-    margin-left: 5vw;
+  margin-left: 5vw;
 }
 
 .musing-date {
-    font-weight: bold;
-    text-align: right;
+  font-weight: bold;
+  text-align: right;
 }
 
 .musing a:hover {
-    text-decoration: none;
-    color: grey;
+  text-decoration: none;
+  color: grey;
 }
 
 .publication-item {
-    padding-top: 10px;
-    min-height: 170px;
-    margin-left: 30px;
+  padding-top: 10px;
+  min-height: 170px;
+  margin-left: 30px;
 }
 
 .publication-thumbnail {
-    width: 120px;
-    min-width: 120px;
-    padding-right: 0;
+  width: 120px;
+  min-width: 120px;
+  padding-right: 0;
 }
 
 .publication-thumbnail-img {
-    border: 1px solid #dddddd;
-    width: 70%;
-    height: auto;
+  border: 1px solid #dddddd;
+  width: 70%;
+  height: auto;
 }
 
 .publication-info {
-    width: 90%;
-    /*line-height: 10px;*/
-    margin-top: 10px;
+  width: 90%;
+  /*line-height: 10px;*/
+  margin-top: 10px;
 }
 
 .publication-title {
-    font-size: 15px;
-    margin: 0;
+  font-size: 15px;
+  margin: 0;
 }
 
 .publication-title > a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .publication-authors {
-    font-size: 14px;
-    margin: 0;
+  font-size: 14px;
+  margin: 0;
 }
 
 .publication-stats {
-    font-size: 14px;
-    color: #7F7F7F;
-    margin: 0;
+  font-size: 14px;
+  color: #7f7f7f;
+  margin: 0;
 }
 
 .publication-keywords {
-    font-size: 11px;
-    margin: 0;
+  font-size: 11px;
+  margin: 0;
 }
