@@ -9,7 +9,7 @@
   font-size: 20px;
   text-decoration: none;
   color: grey;
-  font-size: calc(15px + 0.75vw);
+  font-size: calc(15px + 0.5vw);
 }
 
 .justify-center {
@@ -17,11 +17,11 @@
 }
 
 .section-header {
-  font-size: calc(15px + 1.75vw);
+  font-size: calc(15px + 1.5vw);
 }
 
 .headshot {
-  width: 18vw;
+  width: 14vw;
   padding: 25px;
   border-radius: 50%;
 }
